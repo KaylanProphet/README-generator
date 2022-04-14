@@ -150,6 +150,21 @@ const questions = [
         }
     },
 
+    //Collect github information
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter the GitHub URL for this project',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter the GitHub URL for this project to continue');
+                return false;
+            }
+        }
+    },
+
     
 
 
