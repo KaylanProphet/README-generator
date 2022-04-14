@@ -4,7 +4,7 @@ const fs = require('fs')
 const generateMarkdown = require ('./utils/generateMarkdown');
 
 const docData = {
-    title: 'README.md Generator'
+    title: 'README.md Generator',
     description: 'This README.md Generator helps users easily create a professional README.md file for projects by answering a series of questions.',
     badge: 'Badges are unavailable at this time.',
     installation: 'To access the README.md Generator, a user must clone the README.md-generator repository to their local machine and use Node to run index.js ("node index.js")',
@@ -97,6 +97,16 @@ const questions = [
             }
         }
     },
+
+    //Collect license information
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please choose a license option for this project',
+        choices: ['None', 'MIT', 'ISC', 'Apache', 'GPL','BSD',]
+    },
+
+    
 
 
 
