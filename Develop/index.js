@@ -106,7 +106,23 @@ const questions = [
         choices: ['None', 'MIT', 'ISC', 'Apache', 'GPL','BSD',]
     },
 
+    //Collect contribution information
+    {
+        type: 'input',
+        name: 'contributions',
+        message: 'Please let users know how they can contribute to the project',
+        validate: contributeInput => {
+            if (contributeInput) {
+                return true;
+            } else {
+                console.log('Please enter a way for users to contribute to this project');
+            }
+        }
+    },
+
     
+
+
 
 
 
