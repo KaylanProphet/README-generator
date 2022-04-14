@@ -66,7 +66,24 @@ const questions = [
         }
     },
 
-    
+    //TODO make sure to include table of contents in markdown
+
+    //Collect installation information
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What is the installation process for this project?',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log ('Please provide the installation process for this project');
+                return false;
+            }
+        }
+    },
+
+
 
 
 ];
