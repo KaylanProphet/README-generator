@@ -77,7 +77,7 @@ const questions = [
             if (installationInput) {
                 return true;
             } else {
-                console.log ('Please provide the installation process for this project');
+                console.log ('Please provide the installation process for this project to continue');
                 return false;
             }
         }
@@ -92,7 +92,7 @@ const questions = [
             if (usageInput) {
                 return true;
             } else {
-                console.log ('Please provide the usage process for this project');
+                console.log ('Please provide the usage process for this project to continue');
                 return false;
             }
         }
@@ -115,7 +115,7 @@ const questions = [
             if (contributeInput) {
                 return true;
             } else {
-                console.log('Please enter a way for users to contribute to this project');
+                console.log('Please enter a way for users to contribute to this project to continue');
             }
         }
     },
@@ -129,7 +129,22 @@ const questions = [
             if (testingInput) {
                 return true;
             } else {
-                console.log('Please enter the testing information for this project');
+                console.log('Please enter the testing information for this project to continue');
+                return false;
+            }
+        }
+    },
+
+    //Collect repo information
+    {
+        type: 'input',
+        name:'repo',
+        message: 'Please enter the repository URL for this project',
+        validate: repoInput => {
+            if (repoInput) {
+                return true;
+            } else {
+                console.log('Please enter the repository URL for this project to continue');
                 return false;
             }
         }
