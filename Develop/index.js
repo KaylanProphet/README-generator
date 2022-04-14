@@ -165,15 +165,20 @@ const questions = [
         }
     },
 
-    
-
-
-
-
-
-
-
-
+    //Collect email for contact information
+    {
+        type: 'input',
+        name: 'contact',
+        message: 'Please provide an email address so that users may contact you about this project',
+        validate: contactInput => {
+            if (contactInput) {
+                return true;
+            } else {
+                console.log('Please provide an email address to continue');
+                return false;
+            }
+        }
+    }
 ];
 
 // TODO: Create a function to write README file
