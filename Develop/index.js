@@ -83,6 +83,21 @@ const questions = [
         }
     },
 
+    //Collect usage information
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please list the steps for this project to be utilized',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log ('Please provide the usage process for this project');
+                return false;
+            }
+        }
+    },
+
 
 
 
