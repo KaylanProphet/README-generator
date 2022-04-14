@@ -120,7 +120,24 @@ const questions = [
         }
     },
 
+    //Collect testing information
+    {
+        type: 'input',
+        name: 'testing',
+        message: 'Please let users know testing information for this project',
+        validate: testingInput => {
+            if (testingInput) {
+                return true;
+            } else {
+                console.log('Please enter the testing information for this project');
+                return false;
+            }
+        }
+    },
+
     
+
+
 
 
 
