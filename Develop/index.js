@@ -51,7 +51,24 @@ const questions = [
         }
     },
 
+    //Callect badge information
+    {
+        type: 'input',
+        name: 'badge',
+        message: 'Please provide the badge for this project',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                console.log ('Please provide a description to continue');
+                return false;
+            }
+        }
+    },
+
     
+
+
 ];
 
 // TODO: Create a function to write README file
