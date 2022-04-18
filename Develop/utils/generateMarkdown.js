@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   //copy and paste skeletion into back tics
   return `
-  # ${data.title} 
+  # ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
   [Description](#description) 
@@ -53,10 +53,8 @@ function generateMarkdown(data) {
   ${data.testing}
   ## Repository
   ${data.repository}
-  ## GitHub
-  ${data.github}
-  ## Contact
-  ${data.contact}
+  ## Questions or Comments?
+  You can contact the creator at ${data.contact} or ${data.github}
 `;
 }
 
