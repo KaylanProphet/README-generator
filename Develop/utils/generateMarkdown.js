@@ -14,8 +14,33 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   //copy and paste skeletion into back tics
-  return `# ${data.title}
-
+  return `
+  # ${data.title}
+  ## Table of Contents
+  [Description](#description)  
+  [Usage](#usage)  
+  [Installation](#installation)  
+  [Constributions](#Constributions)  
+  [Testing](#Testing)  
+  [Repository](#Repository)  
+  [GitHub](#GitHub)  
+  [Contact](#Contact)    
+  ## Description
+  ${data.description}
+  ## Usage
+  ${data.usage}
+  ## Installation
+  ${data.installation}
+  ## Contributions
+  ${data.contributions}
+  ## Testing
+  ${data.testing}
+  ## Repository
+  ${data.repository}
+  ## GitHub
+  ${data.github}
+  ## Contact
+  ${data.contact}
 `;
 }
 
