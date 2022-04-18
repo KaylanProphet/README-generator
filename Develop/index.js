@@ -194,9 +194,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 async function init() {
     //wait till the promise from prompt user is resolved, store in var answers
-    var answers = await promptUser()
-    var markdown = (generateMarkdown(answers))
-    writeToFile('generated-readmes/README.md',markdown)
+    var answers = await promptUser();
+    var markdown = generateMarkdown(answers);
+    writeToFile('generated-readmes/README.md',markdown);
 }
 
 // Function call to initialize app
