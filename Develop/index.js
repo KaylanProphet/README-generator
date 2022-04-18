@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
 const fs = require('fs')
+const inquirer = require('inquirer');
 const generateMarkdown = require ('./utils/generateMarkdown');
 
 const docData = {
@@ -181,11 +181,23 @@ const questions = [
     }
 ];
 
+//Prompts user
+const promptUser = async() => {
+    return await inquirer.prompt(questions);
+};
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.promises.writeFile(fileName,data)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+    //wait till the promise from prompt user is resolved, store in var answers
+    var answers = await promptUser()
+    var markdown = (generateMarkdown(answers))
+    writeToFile('generated-readmes/README.md',markdown)
+}
 
 // Function call to initialize app
 init();
