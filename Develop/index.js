@@ -51,7 +51,6 @@ const questions = [
         }
     },
 
-
     //TODO make sure to include table of contents in markdown
 
     //Collect installation information

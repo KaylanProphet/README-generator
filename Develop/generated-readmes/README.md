@@ -1,8 +1,9 @@
 
-  # a ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  # Readme Generator 
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Table of Contents
   [Description](#description) 
-  [License](#license)
+    [License](#license)
   [Usage](#usage)  
   [Installation](#installation)  
   [Constributions](#Constributions)  
@@ -11,22 +12,22 @@
   [GitHub](#GitHub)  
   [Contact](#Contact)    
   ## Description
-  a
+  This will create a readme based on user input
 
   ## License
   MIT was used for this project.
 
   ## Usage
-  aa
+  node index
   ## Installation
-  a
+  Using Node
   ## Contributions
-  a
+  na
   ## Testing
-  a
+  na
   ## Repository
   undefined
   ## GitHub
-  a
+  url
   ## Contact
-  a
+  gmail
