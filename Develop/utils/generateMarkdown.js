@@ -29,8 +29,8 @@ function generateMarkdown(data) {
   # ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
-  [Description](#description) 
-  ${renderLicenseLink(data.license)}
+  [Description](#description)  
+  ${renderLicenseLink(data.license)}  
   [Usage](#usage)  
   [Installation](#installation)  
   [Constributions](#Constributions)  
@@ -40,9 +40,7 @@ function generateMarkdown(data) {
   [Contact](#Contact)    
   ## Description
   ${data.description}
-
-  ${renderLicenseSection(data.license)}
-
+  ${renderLicenseSection(data.license)}  
   ## Usage
   ${data.usage}
   ## Installation
@@ -52,9 +50,9 @@ function generateMarkdown(data) {
   ## Testing
   ${data.testing}
   ## Repository
-  ${data.repository}
+  ${data.repo}
   ## Questions or Comments?
-  You can contact the creator at ${data.contact} or ${data.github}
+  You can contact the creator at ${data.contact} or [My GitHub Profile](${"https://github.com/"+data.github})
 `;
 }
 

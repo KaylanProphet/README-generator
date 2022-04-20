@@ -40,7 +40,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please provide a description of the project',
+        message: 'Please provide a description of the project:',
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
@@ -72,7 +72,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please list the steps for this project to be utilized',
+        message: 'Please list the steps for this project to be utilized:',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -95,7 +95,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributions',
-        message: 'Please let users know how they can contribute to the project',
+        message: 'Please let users know how they can contribute to the project:',
         validate: contributeInput => {
             if (contributeInput) {
                 return true;
@@ -109,7 +109,7 @@ const questions = [
     {
         type: 'input',
         name: 'testing',
-        message: 'Please let users know testing information for this project',
+        message: 'Please let users know testing information for this project:',
         validate: testingInput => {
             if (testingInput) {
                 return true;
@@ -124,7 +124,7 @@ const questions = [
     {
         type: 'input',
         name:'repo',
-        message: 'Please enter the repository URL for this project',
+        message: 'Please enter the repository URL for this project:',
         validate: repoInput => {
             if (repoInput) {
                 return true;
@@ -139,7 +139,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter the GitHub URL for this project',
+        message: 'Please enter your GitHub username:',
         validate: githubInput => {
             if (githubInput) {
                 return true;
@@ -154,7 +154,7 @@ const questions = [
     {
         type: 'input',
         name: 'contact',
-        message: 'Please provide an email address so that users may contact you about this project',
+        message: 'Please provide an email address so that users may contact you about this project:',
         validate: contactInput => {
             if (contactInput) {
                 return true;
