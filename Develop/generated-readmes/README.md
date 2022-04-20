@@ -1,5 +1,5 @@
 
-  # na
+  # README Generator
   
   ## Table of Contents
   [Description](#description)  
@@ -12,17 +12,17 @@
   [GitHub](#GitHub)  
   [Contact](#Contact)    
   ## Description
-  na
+  Easily create a professional README.md file
     
   ## Usage
-  na
+  node index.js 
   ## Installation
-  na
+  npm install
   ## Contributions
-  na
+  Please contact the creator 
   ## Testing
-  na
+  There is not testing for this application at this time
   ## Repository
-  na
+  URL goes here
   ## Questions or Comments?
-  You can contact the creator at na or [My GitHub Profile](https://github.com/KaylanProphet)
+  You can contact the creator at kaylanprophet@gmail.com or [My GitHub Profile](https://github.com/KaylanProphet)

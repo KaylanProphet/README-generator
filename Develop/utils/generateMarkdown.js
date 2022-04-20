@@ -37,7 +37,7 @@ function generateMarkdown(data) {
   [Testing](#Testing)  
   [Repository](#Repository)  
   [GitHub](#GitHub)  
-  [Contact](#Contact)    
+  [Questions or Comments](#Questions or Comments)    
   ## Description
   ${data.description}
   ${renderLicenseSection(data.license)}  
@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   ${data.testing}
   ## Repository
   ${data.repo}
-  ## Questions or Comments?
+  ## Questions or Comments
   You can contact the creator at ${data.contact} or [My GitHub Profile](${"https://github.com/"+data.github})
 `;
 }

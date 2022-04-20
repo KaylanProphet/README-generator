@@ -1,25 +1,21 @@
-# Professional README Generator Starter Code
+# README Generator
+## Table of Contents
+[Description](#description)  
+[Installation](#installation)  
+[Usage](#usage)   
+[Repository](#Repository)  
+[GitHub](#GitHub)  
+[Contact](#Contact)    
+## Description
+The README Generator helps users easily create a README.md file based on the users answers to a series of questions pertaining to the project. 
+## Installation
+At this time for a user to access the README Generator they must clone the repository and use the "npm install" command. This will install the required Node.js packages needed for the README Generator.
+## Usage
+Once installed the user will utilize the README Generator through the command line. Entering "node index.js" will prompt the user with a series of questions about their project. Once this information is gathered the README Generator will compile it into a professional README.md file. The user will then access this file in the generated-readmes folder and will then be able to adjust the file as needed.
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-*WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under*
-
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+[Watch demonstration](https://drive.google.com/file/d/1b9fLl7oA6Vp3YKh-OdhBTP3_hxfvW-V-/view)
+## Repository
+[README Generator Repo](https://github.com/KaylanProphet/README-generator)
+## Questions or Comments
+E-mail me at kaylanprophet@gmail.com  
+Or my [GitHub account](https://github.com/KaylanProphet)
